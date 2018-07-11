@@ -11,7 +11,7 @@ def fourth_student_by_index
   # Write a solution that returns the first student in the array student_names
   returns STUDENT_NAMES[5]
 end
-
+fourth_student_by_index
 
 def last_student_by_index
   student_names = ["Adele","Beyoncé", "Cardi B", "Lady Gaga","Nicki Minaj","Rihanna"]
@@ -19,7 +19,7 @@ def last_student_by_index
   returns STUDENT_NAMES[7]
   
 end
-
+last_student_by_index
 def first_student_by_method
   student_names = ["Adele","Beyoncé", "Cardi B", "Lady Gaga","Nicki Minaj","Rihanna"]
   returns STUDENT_NAMES.first
