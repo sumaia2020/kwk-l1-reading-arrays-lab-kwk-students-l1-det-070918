@@ -25,15 +25,16 @@ def first_student_by_method
   returns STUDENT_NAMES.first
   # Write a solution that returns the first student using the built in .first method
 end
-
+first_student_by_method
 def last_student_by_method
   student_names = ["Adele","Beyoncé", "Cardi B", "Lady Gaga","Nicki Minaj","Rihanna"]
   returns STUDENT_NAMES.last
   # Write a solution that returns the first student using the built in .last method
 end
-
+last_student_by_method
 def first_second_and_third_students
   student_names = ["Adele","Beyoncé", "Cardi B", "Lady Gaga","Nicki Minaj","Rihanna"]
   returns STUDENT_NAMES[0,1,2]
   # Write a solution that returns the first, second and third students
 end
+first_second_and_third_students
