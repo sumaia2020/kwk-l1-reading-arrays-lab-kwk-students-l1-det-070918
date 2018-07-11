@@ -2,37 +2,38 @@ STUDENT_NAMES = ["Adele","Beyoncé", "Cardi B", "Lady Gaga","Nicki Minaj","Rihan
 
 def first_student_by_index
   
-returns STUDENT_NAMES[0]
+return STUDENT_NAMES[0]
 end
 first_student_by_index
 
 def fourth_student_by_index
   
-  returns STUDENT_NAMES[5]
+  return STUDENT_NAMES[5]
+  
 end
 fourth_student_by_index
 
 def last_student_by_index
   
-  returns STUDENT_NAMES[7]
+  return STUDENT_NAMES[7]
   
 end
 last_student_by_index
 def first_student_by_method
   
-  returns STUDENT_NAMES.first
+  return STUDENT_NAMES.first
   
 end
 first_student_by_method
 def last_student_by_method
   
-  returns STUDENT_NAMES.last
+  return STUDENT_NAMES.last
   
 end
 last_student_by_method
 def first_second_and_third_students
   
-  returns STUDENT_NAMES[0,1,2]
+  return STUDENT_NAMES[0,1,2]
   
 end
 first_second_and_third_students
